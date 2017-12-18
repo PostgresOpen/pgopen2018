@@ -60,7 +60,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #0A2342;
+		color: #0E1210;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1420,7 +1420,7 @@
 		}
 
 		section#sponsors {
-			background-color: #0A2342;
+			background-color: #0E1210;
 			padding: 1.5em;
 		}
 
@@ -1478,11 +1478,11 @@
 				font-family: 'Maven Pro', sans-serif;
 		    text-transform: uppercase;
 		    font-weight: 700;
-		    color: #0A2342;
+		    color: #0E1210;
 		}
 
 		label {
-		    color: #0A2342;
+		    color: #0E1210;
 		    display: block;
 		    font-size: 1em;
 		    font-weight: 700;
@@ -1495,7 +1495,7 @@
 		}
 
 		input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover {
-		    background-color: #0A2342;
+		    background-color: #0E1210;
 		    text-decoration: none;
 		}
 
