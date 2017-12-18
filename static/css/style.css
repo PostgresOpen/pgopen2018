@@ -32,7 +32,7 @@
 
 	a {
 		font-weight: bold;
-		color: #2298AC;
+		color: #9e788f;
 		text-decoration: none;
 	}
 
@@ -410,8 +410,8 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #2298AC;
-			border-color: #2298AC;
+			background: #9e788f;
+			border-color: #9e788f;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -1008,7 +1008,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #2298AC;
+		background-color: #9e788f;
 		border-radius: 15px;
 		border: 0;
 		color: #ffffff !important;
@@ -1329,7 +1329,7 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #2298AC;
+			background-color: #9e788f;
 			color: #ffffff;
 		}
 
