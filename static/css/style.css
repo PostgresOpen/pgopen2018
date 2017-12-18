@@ -537,7 +537,7 @@
 	.dropdown-menu {
 	  padding: 0;
 	  box-shadow: 1px 2px 5px rgba(0,0,0,.08);
-	  border-top: 2px solid #01a3e4;
+	  border-top: 2px solid #99C5B0;
 	}
 
 	.dropdown-menu li {
@@ -616,7 +616,7 @@
 	  }
 
 	  .navbar {
-	    color: #01a3e4;
+	    color: #99C5B0;
 	    background-color: #fff;
 	  }
 
