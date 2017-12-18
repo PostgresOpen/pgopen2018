@@ -1356,7 +1356,6 @@
 
 	#footer {
 		background: #99C5B0;
-		padding: 2em 0;
 		color: #0E1210;
 	}
 
@@ -1372,6 +1371,10 @@
 
 		#footer b {
 			color: #0E1210;
+		}
+
+		section.links {
+    	padding: 1.5em 0;
 		}
 
 		#footer .copyright {
