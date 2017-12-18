@@ -1354,13 +1354,6 @@
 
 /* Footer */
 
-	.becomesponsor #footer {
-	    position: fixed;
-	    left: 0px;
-	    bottom: 0px;
-	    width: 100%;
-	}
-
 	#footer {
 		background: #99C5B0;
 		color: #0E1210;
@@ -1509,6 +1502,13 @@
 		margin: 1em 0 2em 0;
 		text-align: left;
 		font-size: 0.9em;
+	}
+
+	.becomesponsor #footer {
+			position: fixed;
+			left: 0px;
+			bottom: 0px;
+			width: 100%;
 	}
 }
 
