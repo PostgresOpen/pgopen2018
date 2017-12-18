@@ -469,7 +469,7 @@
 
 	.navbar {
 	  font-family: 'Droid Sans', sans-serif;
-	/*   background-color: #99C5B0; */
+	/*   background-color: rgb(153,197,176); */
 	  text-transform: uppercase;
 	}
 
@@ -537,7 +537,7 @@
 	.dropdown-menu {
 	  padding: 0;
 	  box-shadow: 1px 2px 5px rgba(0,0,0,.08);
-	  border-top: 2px solid #99C5B0;
+	  border-top: 2px solid rgb(153,197,176);
 	}
 
 	.dropdown-menu li {
@@ -624,7 +624,7 @@
 	  .navbar-nav > li > a:focus,
 	  .navbar-nav > li > a:hover,
 	  .navbar-nav > li.open {
-	    background-color: #99C5B0;
+	    background-color: rgb(153,197,176);
 	  }
 
 	  .dropdown-menu, .dropdown-menu li, .dropdown-menu li a {
@@ -756,7 +756,7 @@
 			}
 
 			.icon.rounded.color3 {
-				background-color: #99C5B0;
+				background-color: rgb(153,197,176);
 			}
 
 			.icon.rounded.color4 {
@@ -1355,7 +1355,7 @@
 /* Footer */
 
 	#footer {
-		background: #99C5B0;
+		background: rgb(153,197,176);
 		color: #0E1210;
 	}
 
