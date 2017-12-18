@@ -517,14 +517,20 @@
     color: #383b43;
 	}
 
-	.navbar-default .navbar-nav > li > a,
-	.fixedtheme .navbar-nav > li > a {
+	.navbar-default .navbar-nav > li > a {
 	  color: #121212;
 	  font-weight: 600;
 	  transition: all 0.4s ease;
 	  -moz-transition: all 0.4s ease; /* Firefox 4 */
 	  -webkit-transition: all 0.4s ease; /* Safari and Chrome */
 	  -o-transition: all 0.4s ease; /* Opera */
+	}
+
+	.fixedtheme .navbar-nav > li > a {
+		transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease; /* Firefox 4 */
+		-webkit-transition: all 0.4s ease; /* Safari and Chrome */
+		-o-transition: all 0.4s ease; /* Opera */
 	}
 
 	.dropdown-menu {
