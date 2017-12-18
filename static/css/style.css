@@ -515,6 +515,7 @@
 	.navbar-nav > li > a:focus,
 	.navbar-nav > li.open {
     color: #383b43;
+		background-color: transparent;
 	}
 
 	.navbar-default .navbar-nav > li > a {
