@@ -1556,6 +1556,18 @@
 		#footer .links {
 			margin-bottom: 0;
 		}
+
+		#footer {
+			text-align: center;
+		}
+
+		#footer h2, #footer h3, #footer h4 {
+			display: none;
+		}
+
+		#footer .col-sm-4 {
+		  padding: 1em 0;
+		}
 	}
 
 	.heading {
