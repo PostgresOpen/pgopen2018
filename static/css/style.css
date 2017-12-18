@@ -507,17 +507,13 @@
 	  background-color: rgba(0,0,0,0);
 	}
 
+	.fixedtheme .navbar-nav > li.active,
+	.fixedtheme .navbar-nav > li > a:focus,
+	.fixedtheme .navbar-nav > li > a:hover,
 	.navbar-nav > li.active > a,
 	.navbar-nav > li > a:hover,
 	.navbar-nav > li > a:focus,
 	.navbar-nav > li.open {
-	  color: #fff;
-	  background-color: rgba(0,0,0,0)
-	}
-
-	.fixedtheme .navbar-nav > li.active,
-	.fixedtheme .navbar-nav > li > a:focus,
-	.fixedtheme .navbar-nav > li > a:hover {
     color: #383b43;
 	}
 
