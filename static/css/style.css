@@ -32,7 +32,7 @@
 
 	a {
 		font-weight: bold;
-		color: #9e788f;
+		color: #B07CC6;
 		text-decoration: none;
 		transition: all 0.4s ease;
 		-moz-transition: all 0.4s ease; /* Firefox 4 */
@@ -41,7 +41,7 @@
 	}
 
 		a:hover {
-			color: #D95A4B;
+			color: #ED735D;
 			text-decoration: underline;
 		}
 
@@ -414,8 +414,8 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #9e788f;
-			border-color: #9e788f;
+			background: #B07CC6;
+			border-color: #B07CC6;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -469,7 +469,7 @@
 
 	.navbar {
 	  font-family: 'Droid Sans', sans-serif;
-	/*   background-color: rgb(153,197,176); */
+	/*   background-color: #C0E7EF; */
 	  text-transform: uppercase;
 	}
 
@@ -494,7 +494,7 @@
 	}
 
 	.navbar-nav>li>a {
-    color: #D95A4B;
+    color: #000;
 		font-family: 'Maven Pro', sans-serif;
 	}
 
@@ -537,7 +537,7 @@
 	.dropdown-menu {
 	  padding: 0;
 	  box-shadow: 1px 2px 5px rgba(0,0,0,.08);
-	  border-top: 2px solid rgb(153,197,176);
+	  border-top: 2px solid #C0E7EF;
 	}
 
 	.dropdown-menu li {
@@ -616,7 +616,7 @@
 	  }
 
 	  .navbar {
-	    color: #D95A4B;
+	    color: #ED735D;
 	    background-color: #fff;
 	  }
 
@@ -624,7 +624,7 @@
 	  .navbar-nav > li > a:focus,
 	  .navbar-nav > li > a:hover,
 	  .navbar-nav > li.open {
-	    background-color: rgb(153,197,176);
+	    background-color: #C0E7EF;
 	  }
 
 	  .dropdown-menu, .dropdown-menu li, .dropdown-menu li a {
@@ -748,7 +748,7 @@
 			}
 
 			.icon.rounded.color1 {
-				background-color: #9e788f;
+				background-color: #B07CC6;
 			}
 
 			.icon.rounded.color2 {
@@ -756,7 +756,7 @@
 			}
 
 			.icon.rounded.color3 {
-				background-color: rgb(153,197,176);
+				background-color: #C0E7EF;
 			}
 
 			.icon.rounded.color4 {
@@ -1009,7 +1009,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #9e788f;
+		background-color: #B07CC6;
 		border-radius: 15px;
 		border: 0;
 		color: #ffffff !important;
@@ -1220,10 +1220,9 @@
 		background-repeat: no-repeat;
 	  background-attachment: fixed;
 		color: #ffffff;
-		padding: 18em 0;
+		padding: 12em 0;
 		text-align: center;
 		-webkit-transform: translate3d(0,0,0);
-		height: 92vh;
 	}
 
 		#banner :last-child {
@@ -1231,16 +1230,15 @@
 		}
 
 		#banner h2 {
-			color: #FF5542;
-			font-size: 4em;
+			font-size: 3em;
 			line-height: 1.25em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
 
 		#banner p {
-	    color: #FF5542;
-	    font-size: 2.5em;
+	    color: #000;
+	    font-size: 2em;
 			font-family: 'Maven Pro', sans-serif;
 	    font-weight: 400;
 			margin-bottom: 1.75em;
@@ -1330,7 +1328,7 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #9e788f;
+			background-color: #B07CC6;
 			color: #ffffff;
 		}
 
@@ -1355,7 +1353,7 @@
 /* Footer */
 
 	#footer {
-		background: rgb(153,197,176);
+		background: #C0E7EF;
 		color: #0E1210;
 	}
 
@@ -1527,7 +1525,7 @@
 
 		#banner h2 {
 			font-size: 2em;
-			padding: 3em 0 0 0;
+			padding: 2.5em 0 0 0;
 		}
 
 		#banner p {
