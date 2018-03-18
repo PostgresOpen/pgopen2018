@@ -851,7 +851,7 @@
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 400;
+		font-weight: 600;
 		height: 2.85em;
 		line-height: 2.95em;
 		padding: 0 2em;
@@ -865,6 +865,7 @@
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #D95A4B !important;
+			color: #fff !important;
 			text-decoration: none;
 		}
 
@@ -873,6 +874,7 @@
 		input[type="button"]:active,
 		.button:active {
 			background-color: #D95A4B !important;
+			color: #fff !important;
 			text-decoration: none;
 		}
 
@@ -967,7 +969,7 @@
 		}
 
 		table th {
-			color: #474747;
+			color: #0E1210;
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
