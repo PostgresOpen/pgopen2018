@@ -407,13 +407,14 @@
 
 	.navbar {
 	  font-family: 'Droid Sans', sans-serif;
-	/*   background-color: #C0E7EF; */
 	  text-transform: uppercase;
 	}
 
 	.navbar-fixed-top {
 	    top: 0;
 	    border-width: 0;
+			background-color: #fff;
+			box-shadow: 0 0 5px rgba(0,0,0,.8);
 	}
 
 	.navbar-brand {
