@@ -1,4 +1,17 @@
 {
     "linkbase": "http://pgopen2018.snowman.net/",
-    "mediabase": "http://pgopen2018.snowman.net/"
+    "mediabase": "http://pgopen2018.snowman.net/",
+
+    "conference": "PostgresOpen 2018",
+
+    "gold": [
+	{
+      "name": "2ndQuadrant",
+      "logo": "2ndQ_logo.png",
+      "largelogo": "2ndQ_logo.png",
+      "badgelogo": "2ndQ_logo.png",
+      "link": "https://www.2ndquadrant.com/",
+	}
+]
+
 }
