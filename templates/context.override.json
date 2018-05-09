@@ -1,6 +1,6 @@
 {
-    "linkbase": "https://2018.postgresopen.org/",
-    "mediabase": "https://2018.postgresopen.org/",
+    "linkbase": "http://pgopen2018.snowman.net/",
+    "mediabase": "http://pgopen2018.snowman.net/",
 
     "conference": "PostgresOpen 2018",
 
