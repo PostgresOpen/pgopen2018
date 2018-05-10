@@ -21,7 +21,14 @@
         "largelogo": "2ndQ_logo.png",
         "badgelogo": "2ndQ_logo.png",
         "link": "https://www.2ndquadrant.com/",
-    	}
+    	},
+      {
+        "name": "Enterprise DB",
+        "logo": "edb_logo.png",
+        "largelogo": "edb_logo.png",
+        "badgelogo": "edb_logo.png",
+        "link": "https://www.edbpostgres.com/",
+      }
     ]
 
 }
