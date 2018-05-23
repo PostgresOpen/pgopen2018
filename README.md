@@ -1,9 +1,5 @@
 ## PostgresOpen SV 2018 Web Site
 
-THIS IS THE TESTING BRANCH
-
-test stuff
-
 This site is built by using the PG.EU static deployment tool. Packages that are needed on a Debian system include:
 ```
 python
