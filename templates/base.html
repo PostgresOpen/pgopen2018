@@ -1,5 +1,6 @@
 {%macro media(url)%}{{mediabase|default("/")}}static/{%if githash%}{{githash}}/{%endif%}{{url}}{%endmacro-%}
 {%macro link(url)%}{{linkbase|default("/")}}{{url}}{%endmacro-%}
+{%macro pguslink(url)%}{{pgusbase|default("/")}}{{url}}{%endmacro-%}
 {%macro menulink(subpage,title,magic)%}<li{%if page==subpage or (pagemagic and pagemagic==magic)%} class="active"{%endif%}><a href="{{link(subpage + "/")}}">{{title}}</a></li>{%endmacro-%}
 <!DOCTYPE html>
 <html lang="en">
@@ -100,8 +101,8 @@
 						<li><a href="{{link("")}}">Home</a></li>
 						{{menulink("about", "About")}}
 						<!-- {{menulink("blog", "Blog")}} -->
-						<!-- <li><a href="https://postgresql.us/events/schedule/pgopen2018/">Schedule</a></li> -->
-						<!-- <li><a href="https://postgresql.us/events/feedback/pgopen2018/">Feedback</a></li> -->
+		  				<!-- <li><a href="{{pguslink("events/schedule/pgopen2018/")}}">Schedule</a></li> -->
+						<!-- <li><a href="{{pguslink("events/feedback/pgopen2018/")}}">Feedback</a></li> -->
 						{{menulink("callforpapers", "Call for Papers")}}
 						{{menulink("tickets", "Registration")}}
 						{{menulink("venue", "Venue")}}
