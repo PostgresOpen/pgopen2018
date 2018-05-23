@@ -48,3 +48,4 @@ pgeu-website/tools/deploystatic/deploystatic.py $(pwd)/pgopen2018 $(pwd)/2018.po
 ```
 
 The static website should be created into the 2018.postgresql.org directory.
+
