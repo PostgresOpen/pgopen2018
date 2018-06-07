@@ -11,19 +11,11 @@
 	sponsors!  If you are interested in sponsoring the conference, please
 	see our <b><a href="{{link("becomesponsor/")}}">sponsoring campaign</a></b> and let us know!
 </p>
-<p>
-	PostgresOpen abides by the Postgres <a href="https://www.postgresql.org/community/recognition/">Community Recognition guidelines</a>. 
-</p>
-<p>
-	When working with individual companies on sponsorship, PostgresOpen and <a href="https://postgresql.us/">PgUS</a> will only consider changes to the sponsorship contract which do not impact the material benefits provided to a given company or the cost of the sponsorship. The determination of what is considered a material benefit will be decided by the PostgresOpen operations committee and PgUS, as the signing authority. No changes to the benefits included in the prospectus will be accepted, nor will any sponsorship discounts be provided. 
-</p>
 <hr>
-
 <h3>Diamond</h3>
 <div class="row text-center">
 {% for p in diamond %}
-	<div class="col-md-6 col-md-4">
-		<!-- Diamond -->
+	<div class="col-md-12">
 		<a href="{{p.link}}" target="_blank"><img id="sponsors" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
 		<div class="caption">
 			<small><em>{{p.intro}}</em></small>
@@ -33,12 +25,12 @@
 </div>
 
 <hr>
+<!--
 
 <h3>Platinum</h3>
 <div class="row text-center">
 {% for p in platinum %}
-	<div class="col-md-6 col-md-4">
-		<!-- Diamond -->
+	<div class="col-md-12">
 		<a href="{{p.link}}" target="_blank"><img id="sponsors" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
 		<div class="caption">
 			<small><em>{{p.intro}}</em></small>
@@ -46,32 +38,28 @@
 	</div>
 {% endfor %}
 </div>
-<hr>
+<hr>-->
 
 <h3>Gold</h3>
 {% for p in gold %}
 {% if loop.index0 is divisibleby 3 %}
 <div class="row text-center">
 {% endif %}
-  <div class="col-md-6 col-md-4">
+  <div class="col-md-12">
 	<!-- Gold {{ loop.index }} of {{ loop.length }} -->
 		<a href="{{p.link}}" target="_blank"><img id="sponsors" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
 		<div class="caption">
 			<small><em>{{p.intro}}</em></small>
 		</div>
 	</div>
-{% if loop.index is divisibleby 3 %}
-</div>
-{% endif %}
 {% endfor %}
 </div>
 <hr>
-
+<!--
 <h3>Silver</h3>
 <div class="row text-center">
 {% for p in silver %}
-  <div class="col-md-6 col-md-4">
-	<!-- Silver -->
+  <div class="col-md-12">
 		<a href="{{p.link}}" target="_blank"><img id="sponsors" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
 		<div class="caption">
 			<small><em>{{p.intro}}</em></small>
@@ -84,8 +72,7 @@
 <h3>Supporter</h3>
 <div class="row text-center">
 {% for p in supporter %}
-  <div class="col-md-6 col-md-4">
-	<!-- Silver -->
+  <div class="col-md-12">
 		<a href="{{p.link}}" target="_blank"><img id="sponsors" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
 		<div class="caption">
 			<small><em>{{p.intro}}</em></small>
@@ -98,8 +85,7 @@
 <h3>Community Partners</h3>
 <div class="row text-center">
 {% for p in partner %}
-  <div class="col-md-6 col-md-4">
-	<!-- Silver -->
+  <div class="col-md-12">
 		<a href="{{p.link}}" target="_blank"><img id="sponsors" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
 		<div class="caption">
 			<small><em>{{p.intro}}</em></small>
@@ -107,5 +93,5 @@
 	</div>
 {% endfor %}
 </div>
-<hr>
+<hr>-->
 {% endblock %}
