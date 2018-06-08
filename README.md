@@ -1,9 +1,5 @@
 ## PostgresOpen SV 2018 Web Site
 
-THIS IS THE TESTING BRANCH
-
-test stuff
-
 This site is built by using the PG.EU static deployment tool. Packages that are needed on a Debian system include:
 ```
 python
@@ -52,3 +48,4 @@ pgeu-website/tools/deploystatic/deploystatic.py $(pwd)/pgopen2018 $(pwd)/2018.po
 ```
 
 The static website should be created into the 2018.postgresql.org directory.
+
