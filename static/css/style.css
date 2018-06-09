@@ -576,7 +576,7 @@
 	/* Transitioning Menu                                                            */
 	/*********************************************************************************/
 
-	@media(min-width:768px) {
+	@media(min-width:1024px) {
 	  .navbar-container.fixedtheme .navbar-brand {
 	      padding: 10px;
 	  }
@@ -587,7 +587,7 @@
 	  }
 
 	  .navbar-container {
-	      padding: 10px 0;
+	      padding: 10px 30px;
 	  }
 
 	  .navbar.navbar-fixed-top.fixedtheme {
