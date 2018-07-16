@@ -14,40 +14,6 @@
 
     "conference": "PostgresOpen 2018",
 
-    "diamond": [
-    	{
-  	    "name": "Citus Data",
-  	    "logo": "citusdata.png",
-  	    "largelogo": "citusdata.png",
-  	    "badgelogo": "citusdata.png",
-  	    "link": "https://www.citusdata.com/",
-  	    "intro": "Citus is worry-free Postgres that is built to scale out. Made for SaaS and enterprises, Citus is an extension to Postgres that distributes data and queries across multiple nodes. Whether you need to scale out a multi-tenant app—or are building real-time analytics dashboards that require sub-second responses—Citus makes it simple to shard Postgres. Our Citus distributed database is available as open source, as enterprise software, and as a fully-managed cloud database."
-    	}
-    ],
-    "gold": [
-    	{
-        "name": "2ndQuadrant",
-        "logo": "2ndQ_logo.png",
-        "largelogo": "2ndQ_logo.png",
-        "badgelogo": "2ndQ_logo.png",
-        "link": "https://www.2ndquadrant.com/",
-		"intro": ""
-    	},
-      {
-        "name": "Enterprise DB",
-        "logo": "edb_logo.png",
-        "largelogo": "edb_logo.png",
-        "badgelogo": "edb_logo.png",
-        "link": "https://www.edbpostgres.com/",
-		"intro": ""
-      }
-
-
-
-
-
-
-
           "diamond": [
       	{
       	    "name": "Citus Data",
@@ -105,7 +71,7 @@
             "logo": "bt-logo-black-2dc4ba9a.png",
             "largelogo": "bt-logo-black-2dc4ba9a.png",
             "badgelogo": "bt-logo-black-2dc4ba9a.png",
-            "link": "https://www.braintreepayments.com/",
+            "link": "https://www.braintreepayments.com/"
         }
           ],
 
