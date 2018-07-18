@@ -34,30 +34,6 @@
           ],
 
           "gold": [
-      	{
-      	    "name": "Amazon Web Services",
-      	    "logo": "amazon-web-services.gif",
-      	    "largelogo": "amazon-web-services.gif",
-      	    "badgelogo": "amazon-web-services.gif",
-      	    "link": "https://aws.amazon.com/",
-      	    "intro": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching and backups. It offers seven database engines to choose from, including <a href=\"https://aws.amazon.com/rds/postgresql/\">Amazon RDS for PostgreSQL</a> and <a href=\"https://aws.amazon.com/rds/aurora/\">Amazon Aurora PostgreSQL</a>, a PostgreSQL-compatible database that provides a compelling migration target for high-end commercial databases. Learn more at <a href=\"https://aws.amazon.com/rds/aurora/\">aws.amazon.com/rds/</a> and follow us at <a href=\"https://twitter.com/awscloud\">@AWSCloud</a>."
-      	},
-        {
-          "name": "Enterprise DB",
-          "logo": "edb_logo.png",
-          "largelogo": "edb_logo.png",
-          "badgelogo": "edb_logo.png",
-          "link": "https://www.edbpostgres.com/",
-          "intro": "EnterpriseDB® (EDB™), the database platform company for digital business, delivers the premier open source-based data platform for new applications, cloud re-platforming, application modernization, and legacy migration. EnterpriseDB integrates with enterprise technologies and infrastructures for hybrid cloud management, data integration, and data warehousing. Our customers benefit from the most reliable, high-performing, flexible, open, and cost-effective data management platform available. EnterpriseDB is based in Bedford, Massachusetts with offices around the globe. For more information, visit www.EDBPostgres.com."
-        },
-        {
-            "name": "Crunchy Data",
-            "logo": "crunchy_data.png",
-            "largelogo": "crunchy_data.png",
-            "badgelogo": "crunchy_data.png",
-            "link": "https://www.crunchydata.com/",
-            "intro": "Crunchy Data is a leading provider of trusted open source PostgreSQL and enterprise PostgreSQL technology, support and training.  Crunchy Data offers Crunchy Certified PostgreSQL, the most advanced pure open source RDBMS on the market and the first open source RDBMS to achieve Common Criteria certification. Crunchy Data is a leading provider of Cloud Native PostgreSQL – providing open source, cloud agnostic PostgreSQL-as-a-Service solutions. PostgreSQL’s active development community, proven architecture and reputation for reliability, data integrity, and ease of use make it a prime candidate for enterprises looking for a robust relational database alternative to expensive proprietary database technologies."
-        },
         {
             "name": "2ndQuadrant",
             "logo": "2ndQ_logo.png",
@@ -67,11 +43,35 @@
             "intro": "As the Gold Standard worldwide for everything PostgreSQL, 2ndQuadrant consistently contributes enterprise features to enhance performance, scalability, security, and stability in PostgreSQL.  Spanning 22 countries and 5 continents, 2ndQuadrant is the largest single collective organization of PostgreSQL experts of any company globally.  Our PostgreSQL experts are the developers of popular tools such as:<ul><li>Postgres-BDR- Multi-master replication for geographically distributed clusters</li><li>pglogical - Fully integrated extension for logical replication</li><li>Postgres-XL - Horizontally Scalable, Massively Parallel Database with flexibility to handle OLAP & OLTP workloads</li><li>repmgr - Automatic failover management tool for configuring High Availability environments</li><li>Barman - Backup Manager and Disaster Recovery Tool for PostgreSQL</li></ul>In addition to developing these tools, our PostgreSQL experts provide 24/7 Production Support, Oracle migration services, Remote DBA support, PostgreSQL Consulting, and Training."
         },
         {
+          "name": "Enterprise DB",
+          "logo": "edb_logo.png",
+          "largelogo": "edb_logo.png",
+          "badgelogo": "edb_logo.png",
+          "link": "https://www.edbpostgres.com/",
+          "intro": "EnterpriseDB® (EDB™), the database platform company for digital business, delivers the premier open source-based data platform for new applications, cloud re-platforming, application modernization, and legacy migration. EnterpriseDB integrates with enterprise technologies and infrastructures for hybrid cloud management, data integration, and data warehousing. Our customers benefit from the most reliable, high-performing, flexible, open, and cost-effective data management platform available. EnterpriseDB is based in Bedford, Massachusetts with offices around the globe. For more information, visit www.EDBPostgres.com."
+        },
+      	{
+      	    "name": "Amazon Web Services",
+      	    "logo": "amazon-web-services.gif",
+      	    "largelogo": "amazon-web-services.gif",
+      	    "badgelogo": "amazon-web-services.gif",
+      	    "link": "https://aws.amazon.com/",
+      	    "intro": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching and backups. It offers seven database engines to choose from, including <a href=\"https://aws.amazon.com/rds/postgresql/\">Amazon RDS for PostgreSQL</a> and <a href=\"https://aws.amazon.com/rds/aurora/\">Amazon Aurora PostgreSQL</a>, a PostgreSQL-compatible database that provides a compelling migration target for high-end commercial databases. Learn more at <a href=\"https://aws.amazon.com/rds/aurora/\">aws.amazon.com/rds/</a> and follow us at <a href=\"https://twitter.com/awscloud\">@AWSCloud</a>."
+      	},
+        {
             "name": "Braintree",
             "logo": "bt-logo-black-2dc4ba9a.png",
             "largelogo": "bt-logo-black-2dc4ba9a.png",
             "badgelogo": "bt-logo-black-2dc4ba9a.png",
             "link": "https://www.braintreepayments.com/"
+        },
+        {
+            "name": "Crunchy Data",
+            "logo": "crunchy_data.png",
+            "largelogo": "crunchy_data.png",
+            "badgelogo": "crunchy_data.png",
+            "link": "https://www.crunchydata.com/",
+            "intro": "Crunchy Data is a leading provider of trusted open source PostgreSQL and enterprise PostgreSQL technology, support and training.  Crunchy Data offers Crunchy Certified PostgreSQL, the most advanced pure open source RDBMS on the market and the first open source RDBMS to achieve Common Criteria certification. Crunchy Data is a leading provider of Cloud Native PostgreSQL – providing open source, cloud agnostic PostgreSQL-as-a-Service solutions. PostgreSQL’s active development community, proven architecture and reputation for reliability, data integrity, and ease of use make it a prime candidate for enterprises looking for a robust relational database alternative to expensive proprietary database technologies."
         }
           ],
 
