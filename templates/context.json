@@ -78,7 +78,6 @@
 
           "silver": [
       	{
-      	    "name": "Pivotal",
       	    "logo": "1280px-Pivotal_Software_logo.svg.png",
       	    "largelogo": "1280px-Pivotal_Software_logo.svg.png",
       	    "badgelogo": "1280px-Pivotal_Software_logo.svg.png",
@@ -88,14 +87,12 @@
 
           "supporter": [
       	{
-      	    "name": "JackDB",
       	    "logo": "jackdb-logomark-700x200.png",
       	    "largelogo": "jackdb-logomark-700x200.png",
       	    "badgelogo": "jackdb-logomark-700x200.png",
       	    "link": "https://www.jackdb.com/",
       	},
         {
-            "name": "ZomboDB",
             "logo": "zombodb.png",
             "largelogo": "zombodb.png",
             "badgelogo": "zombodb.png",
@@ -104,7 +101,6 @@
           ],
           "partner": [
             {
-              "name": "PostgreSQL US",
               "logo": "pgus.png",
               "largelogo": "pgus.png",
               "badgelogo": "pgus.png",
