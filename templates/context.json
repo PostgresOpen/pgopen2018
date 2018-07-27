@@ -83,7 +83,6 @@
       	    "largelogo": "1280px-Pivotal_Software_logo.svg.png",
       	    "badgelogo": "1280px-Pivotal_Software_logo.svg.png",
       	    "link": "https://pivotal.io/",
-      	    "intro": "Pivotal"
       	}
           ],
 
@@ -94,7 +93,6 @@
       	    "largelogo": "jackdb-logomark-700x200.png",
       	    "badgelogo": "jackdb-logomark-700x200.png",
       	    "link": "https://www.jackdb.com/",
-      	    "intro": "JackDB"
       	},
         {
             "name": "ZomboDB",
@@ -102,7 +100,6 @@
             "largelogo": "zombodb.png",
             "badgelogo": "zombodb.png",
             "link": "https://www.zombodb.com/",
-            "intro": "ZomboDB"
         }
           ],
           "partner": [
@@ -112,7 +109,6 @@
               "largelogo": "pgus.png",
               "badgelogo": "pgus.png",
               "link": "https://postgresql.us/associatedprojects/",
-              "intro": "PostgreSQL US"
             }
     ]
 
