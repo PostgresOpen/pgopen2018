@@ -85,9 +85,9 @@
       	    "intro": " "
       	},
         {
-            "logo": "ScaleGrid.eps",
-            "largelogo": "ScaleGrid.eps",
-            "badgelogo": "ScaleGrid.eps",
+            "logo": "ScaleGrid.png",
+            "largelogo": "ScaleGrid.png",
+            "badgelogo": "ScaleGrid.png",
             "link": "https://scalegrid.io/",
             "intro": " "
         }
