@@ -83,7 +83,14 @@
       	    "badgelogo": "1280px-Pivotal_Software_logo.svg.png",
       	    "link": "https://pivotal.io/",
       	    "intro": " "
-      	}
+      	},
+        {
+            "logo": "ScaleGrid.eps",
+            "largelogo": "ScaleGrid.eps",
+            "badgelogo": "ScaleGrid.eps",
+            "link": "https://scalegrid.io/",
+            "intro": " "
+        }
           ],
 
           "supporter": [
