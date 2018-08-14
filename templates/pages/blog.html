@@ -5,7 +5,7 @@
 <!-- Main -->
 <h1>Blog</h1>
 <hr>
-{%for blog in blogposts %}
+{%for blog in blogposts|sort(attribute='posttime'), reverse = True %}
   <!-- Sponsorship -->
   <h3>{{blog.title}}</h3>
   <h4>Posted By: {{blog.sponsorname}} on {{blog.posttime|datetimeformat('%A, %B %d')}}</h4>
